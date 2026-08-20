@@ -1,0 +1,10 @@
+.streamlit/secrets.toml
+*.xlsx
+!sample_data/.gitkeep
+outputs/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
