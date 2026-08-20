@@ -1,5 +1,7 @@
 .streamlit/secrets.toml
 *.xlsx
+!LGD with constituency.xlsx
+!Polling_Station_LGD mapping.xlsx
 !sample_data/.gitkeep
 outputs/
 __pycache__/

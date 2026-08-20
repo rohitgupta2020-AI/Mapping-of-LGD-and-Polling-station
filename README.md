@@ -34,14 +34,12 @@ Add more users as `[auth.users.user2]`, `[auth.users.user3]`, and so on.
 
 ## Data Files
 
-For public GitHub deployment, do not commit real Excel files. They are ignored by `.gitignore`.
-
-Users can upload these files after login:
+The app can use these bundled files from the repository:
 
 - `Polling_Station_LGD mapping.xlsx`
 - `LGD with constituency.xlsx`
 
-If you deploy privately and want bundled files, place both workbooks beside `app.py` on the server.
+Users can still upload replacement files after login when they need to work with a newer workbook.
 
 ## Deploy To Streamlit Community Cloud
 
